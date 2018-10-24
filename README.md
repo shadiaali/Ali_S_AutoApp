@@ -31,8 +31,10 @@ And you’re done!
 
 ## Built With
 
-* [Zurb Foundation 6](https://foundation.zurb.com/sites.html) - The web framework used - Zurb Foundation 6 for sites
-* Add more later
+* [Zurb Foundation 6](https://foundation.zurb.com/sites.html) 
+* [SASS](https://sass-lang.com/)
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/)
 
 ## Authors
 
