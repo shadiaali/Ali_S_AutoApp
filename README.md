@@ -24,6 +24,7 @@ Finally, run `npm start` to run the Sass compiler. Then navigate your browser to
 
 ## Built With
 
+- [Vue.js](https://vue.com) 
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
 - [Gulp.js](https://gulpjs.com/)
