@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maserati GranTurismo </title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
+  </head>
+
+
+
+    <!--start grid-frame--> <div class="grid-frame">
+  		<header>
+
+        <!-- no nav on front page
+        >
+      <div class="title-bar topbar-center-logo-mobile topbar-responsive" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
+      <div class="title-bar-left">
+        <div class="title-bar-title"><img src="images/flashback-logo.svg" style="height:39px;"  alt="logo"></div>
+      </div>
+      <div class="title-bar-right">
+        <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
+      </div>
+      </div>
+
+
+
+      <div class="top-bar topbar-center-logo" id="topbar-center-logo">
+
+      <div class="top-bar-center">
+        <a href="#"><img src="images/flashback-logo.svg" style="height:35px;" alt="logo"></a>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu vertical medium-horizontal menu-hover-lines">
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      </div>
+      -->
+	</header>
+
+
+  <!--content-->
+
+<!--start main container-->
+  		<div class="main-container grid-x flex-video" id="app"><h2 class="hidden">App container</h2>
+
+<div class="auto cell"></div>
+ <div class="main-video small-12 medium-12 large-10 cell" v-for="video in videodata">
+<!-- <img :src="'images/' + video.video_cover_image" alt="" style="height:50px; width:30px;"><br> -->
+
+<video autoplay loop muted id="carVideo">
+  <source :src="video.video_url" type="video/mp4">
+</video>
+
+ </div>
+ <div class="auto cell"></div>
+<div class="small-12 cell"><h3>{{ mainmessage }}</h3></div>
+
+  	 </div>
+<!--end main container-->
+
+
+
+  	   <!--Footer
+       <footer class="grid-x"><h2 class="hidden">Footer</h2>
+       <div class="footer-container small-auto medium-auto large-auto cell">
+
+         </div>
+       </footer>
+    End footer-->
+
+     <!--end grid frame--></div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/what-input/dist/what-input.js"></script>
+    <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

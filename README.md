@@ -1,43 +1,38 @@
 # Interactive Auto App
 
-An interactive application using 3D, video, audio and still images. 
+An interactive application using 3D, video, audio and still images.
 
-## Getting Started
 
-### Prerequisites
+### Setup
 
-You’ll need Git.
-[See detailed install instructions here.](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+Navigate to htdocs in MAMP.
 
-### Installing
-
-From terminal:
-
-```# Initialize git
-
-$ git init
-
-# Clone this repository
-
-$ git clone https://github.com/smalfoy/Ali_S_Wisniewski_S_AutoApp.git
-
-# Go into the repository
-
-$ cd Ali_S_Wisniewski_S_AutoApp
-
+```bash
+git clone https://github.com/smalfoy/Ali_S_AutoApp.git
 ```
 
-And you’re done!
+Open the folder in your command line, and install the needed dependencies:
+
+```bash
+cd Ali_S_AutoApp
+npm install
+```
+
+Finally, run `npm start` to run the Sass compiler. Then navigate your browser to `http://localhost:8888/Ali_S_AutoApp` **The site will not show properly unless these steps are followed.**
+
+
 
 ## Built With
 
-* [Zurb Foundation 6](https://foundation.zurb.com/sites.html) 
-* [SASS](https://sass-lang.com/)
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/)
+- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
+- [Git](https://git-scm.com/)
+- [Gulp.js](https://gulpjs.com/)
+- [SASS](https://sass-lang.com/)
+- [Zurb Foundation 6](https://foundation.zurb.com/)
+- [npm](https://www.npmjs.com/)
+
+
 
 ## Authors
 
-* Shadia Ali 
-* Maksym Pashchenko
-
+* Shadia Ali
